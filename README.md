@@ -20,12 +20,12 @@ The purpose of this assignment is to read in an external CSV file, Loop through 
 Using a dictionary to store a key pair that tracks unique political contender and their respective vote count seems like an elegant and effecient solution to me. 
 
 ```python
-        #Use dictionary to tally votes per candidate as we loop through  
-        #check if candidate is in dictionary.  If not add new dict key, if present increment their vote count
-        if row[2] not in vote_results.keys():
-            vote_results[row[2]] = 1
-        else:
-            vote_results[row[2]] += 1
+#Use dictionary to tally votes per candidate as we loop through  
+#check if candidate is in dictionary.  If not add new dict key, if present increment their vote count
+if row[2] not in vote_results.keys():
+  vote_results[row[2]] = 1
+else:
+  vote_results[row[2]] += 1
 ```
 
 **PyPull Results Screenshot**
